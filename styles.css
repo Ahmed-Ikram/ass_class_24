@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/night-sky-picture-darkness-planets-stars_248415-8721.jpg);
+  }
+  
+  .todo-container {
+    text-align: center;
+  }
+  
+
+  h1 {
+    color: gold;
+  }
+  
+  #todo-list {
+    margin-top: 20px;
+  }
+  
+
+
+  .todo-item {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+  }
+  
+  
